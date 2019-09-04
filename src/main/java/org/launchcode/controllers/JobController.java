@@ -71,7 +71,7 @@ public class JobController {
         jobData.add(newJob);
 
 
-        attributes.addAttribute("job", newJob.getId());
+        attributes.addAttribute("id", newJob.getId());
         return "redirect:/job";
     }
 }
